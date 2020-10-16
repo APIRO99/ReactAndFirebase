@@ -1,0 +1,83 @@
+.Signin{
+  display: grid;
+  grid-template-columns: [form] 60% [image] 40%;
+}
+
+.Scontainer{
+  grid-column-start: form;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Scontainer__title{
+  color: white;
+  font-size: 75px;
+  margin: 63px 0px 20px 0px;
+}
+
+.Scontainer__form{
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  align-items: center;
+  width: 60%;
+}
+
+.Sinput{
+  margin: 20px 0px;
+  height: 50px;
+  width: 90%;
+
+  background: black;
+  border: none;
+  border-bottom: 1px solid white;
+  
+  color: white;
+  font-size: 17px;
+  outline: none;
+}
+
+input::placeholder{
+  font-size: 17px;
+}
+
+.Scontainer__submitButton{
+  width: 100%;
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+
+  outline: none;
+}
+
+.Scontainer__submitButton:hover{
+  cursor: pointer;
+}
+
+.Scontainer__socialmedia{
+  width: 60%;
+}
+
+.Scontainer__socialmedia--option{
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
+
+.Scontainer__socialmedia--logo{
+  height: 60px;
+}
+
+.Scontainer__socialmedia--text{
+  color: white;
+  margin: 0 0 0 10px;
+}
+
+
+
+.Sbackground{
+  grid-column-start: image;
+}
